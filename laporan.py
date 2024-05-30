@@ -7,7 +7,7 @@ st.markdown(
     .watermark {
         position: fixed;
         bottom: 10px;
-        right: 10px;
+        left: 10px;
         opacity: 0.5;
         z-index: 99;
         font-size: 24px; /* Ukuran font watermark */
