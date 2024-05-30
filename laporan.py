@@ -1,6 +1,27 @@
 import streamlit as st
 from PIL import Image
 
+st.markdown(
+    """
+    <style>
+    .watermark {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        opacity: 0.5;
+        z-index: 99;
+        font-size: 24px; /* Ukuran font watermark */
+        font-family: 'Times New Roman', serif;
+        color: #808080; /* Warna abu-abu */
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
+st.markdown('<p class="watermark">bimaardhiavardhan</p>', unsafe_allow_html=True)
+
+
 # --- JUDUL ---
 st.title("Kunjungan Industri SMKN 1 Surabaya")
 
